@@ -1,5 +1,8 @@
 {
   "item.tutorial-mod.blue_shit" : "Blue Shit",
   "item.tutorial-mod.pink_garnet" : "Pink Garnet",
-  "item.tutorial-mod.raw_blue_shit" : "Raw Blue Shit"
+  "item.tutorial-mod.raw_blue_shit" : "Raw Blue Shit",
+
+  "block.tutorial-mod.pink_garnet_block": "Pink Garnet Block",
+  "block.tutorial-mod.raw_pink_garnet_block": "Raw Pink Garnet Block"
 }
