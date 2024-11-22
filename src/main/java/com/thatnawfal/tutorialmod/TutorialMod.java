@@ -1,6 +1,7 @@
 package com.thatnawfal.tutorialmod;
 
 import com.thatnawfal.tutorialmod.block.ModBlocks;
+import com.thatnawfal.tutorialmod.item.ModItemGroups;
 import com.thatnawfal.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,6 +14,8 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 	}
